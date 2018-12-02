@@ -7,7 +7,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                salam
+                ss
                 <Cardex/>
                 <Route name="admin" path="/admin" render={(props) => <Admin {...props} access="admin"/>}/>
             </div>
